@@ -1,10 +1,10 @@
 let dbConfig = {
-    user: "postgres",
-    host: "localhost",
-    database: "postgres",
-    password: "Jyoti", 
+    user: process.env.USER,
+    host: process.env.HOST,
+    database: process.env.DATABASE,
+    password: process.env.PASSWORD, 
     ssl:false,
-    port: 2025
+    port: process.env.PGPORT
 };
 
 
