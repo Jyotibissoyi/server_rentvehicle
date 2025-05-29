@@ -1,10 +1,10 @@
 {
   "name": "server_rentvehicle",
   "version": "1.0.0",
-  "description": "",
+  "description": "person can rent vehicle",
   "main": "index.js",
   "scripts": {
-     "start": "npx nodemon src/index.js",
+    "start": "npx nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,7 +21,7 @@
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "mongoose": "^8.14.3",
-    "multer": "^1.4.5-lts.2",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.0"
   }
 }
